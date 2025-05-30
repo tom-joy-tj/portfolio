@@ -1,10 +1,13 @@
 import React from 'react';
+import Header from '../components/Header';
+
 
 function App() {
     return (
       <div>
-        <h1>Thomas Joy</h1>
-        <p>Junior JavaScript Developer</p>
+        <Header />
+        <main>
+        </main>
       </div>
     )
   }
