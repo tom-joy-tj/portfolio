@@ -6,9 +6,15 @@ const Header = () => {
   return (
     <header>
       <nav>
-       <img src={github} className="headerLogo" />
-       <img src={linkedIn} className="headerLogo" />
-       <img src={email} className="headerLogo" />
+        <a href="https://github.com/tom-joy-tj" target="blank" rel="noopener no referrer">
+            <img src={github} className="headerLogo" alt="GitHub" />
+        </a>
+        <a href="https://www.linkedin.com/in/tjoy/" target="blank" rel="noopener no referrer">
+            <img src={linkedIn} className="headerLogo" alt="LinkedIn" />
+        </a>
+        <a href="mailto:thomaspjoy1@gmail.com">
+            <img src={email} className="headerLogo" alt ="Email" />
+        </a>
       </nav>
     </header>
   );
