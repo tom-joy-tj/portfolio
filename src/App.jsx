@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
-import Main from '../components/Main';
+import Signature from '../components/Signature';
+
 
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
       <div>
         <Header />
         <main>
-        <Main/>
+        <Signature/>
         </main>
       </div>
     )
