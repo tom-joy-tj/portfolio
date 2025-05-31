@@ -29,3 +29,11 @@ header {
     transition: all 0.2s ease-in-out;
   }
   
+  .signatureContainer {
+    background-color: #fdfaf3;
+  }
+
+  .signature {
+    display: flex;
+    align-items: center;
+  }
