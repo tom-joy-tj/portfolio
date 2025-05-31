@@ -1,6 +1,6 @@
 const Main = () => {
     return (
-        <img src="assets/signature_black_vector.png"></img>
+        <img src="./assets/signature_black_vector.png"></img>
     );
 };
 
