@@ -33,10 +33,12 @@ header {
     background-color: #fdfaf3;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: bottom;
   }
 
   .signature {
-    width: 250px;
-    height: 250px;
+    width: 20%;
+    height: 20%;
+    padding: 150px;
+    
   }
