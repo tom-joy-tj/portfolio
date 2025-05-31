@@ -32,13 +32,63 @@ header {
   .signatureContainer {
     background-color: #fdfaf3;
     display: flex;
+    flex-direction: column; 
     justify-content: center;
-    align-items: bottom;
+    align-items: center; 
+    padding-top: 150px; 
+    text-align: center;
+  }
+
+  .signatureContainer h2 {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.5rem;
+    color: #333;
   }
 
   .signature {
-    width: 20%;
-    height: 20%;
-    padding: 150px;
-    
+    width: 600px;
+    height: auto;
+    margin-bottom: 0px; /* Space before the h2 */
+  }
+
+  .carousel-section {
+    background-color: #fdfaf3;
+  }
+  .project-card {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+    transition: transform 0.2s ease;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project-card p {
+    font-size: 1rem;
+    color: #444;
   }

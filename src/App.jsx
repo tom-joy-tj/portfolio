@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css'
 import Header from '../components/Header';
 import Signature from '../components/Signature';
+import ProjectsCarousel from '../components/ProjectsCarousel';
 
 
 
@@ -10,7 +11,12 @@ function App() {
       <div>
         <Header />
         <main>
-        <Signature/>
+            <section className="signature-section">
+                <Signature />
+            </section>
+            <section className="carousel-section">
+                <ProjectsCarousel />
+            </section>
         </main>
       </div>
     )
