@@ -1,7 +1,9 @@
+import github from "../assets/gh_logo.png"
+
 const Header = () => {
   return (
     <header>
-      <h1>Tom Joy</h1>
+        <img src={github} className="headerLogo" />
       <nav>
         <a href="#about">About</a> |{" "}
         <a href="#projects">Projects</a> |{" "}
