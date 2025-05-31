@@ -1,14 +1,31 @@
-.headerLogo {
+header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: #fdfaf3;
+    z-index: 1000; 
+  }
+
+  nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .headerLogo {
     width: 32px;
     height: 32px;
     margin: 0 10px;
     object-fit: contain;
     cursor: pointer;
   }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 1rem;
+
+  .headerLogo:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
+    transition: all 0.2s ease-in-out;
   }
+  
