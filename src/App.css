@@ -31,9 +31,12 @@ header {
   
   .signatureContainer {
     background-color: #fdfaf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .signature {
-    display: flex;
-    align-items: center;
+    width: 250px;
+    height: 250px;
   }
