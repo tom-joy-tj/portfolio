@@ -11,7 +11,7 @@ const Signature = () => {
                 <Typewriter
                     options={{
                         strings: [
-                        'Junior FullStack JavaScript Developer...',
+                        'FullStack JavaScript Developer...',
                         'Looking for new opportunities...',
                         'React.js enthusiast...',
                         ],
