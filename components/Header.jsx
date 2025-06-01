@@ -1,6 +1,7 @@
 import github from "../assets/gh_logo.png"
 import linkedIn from "../assets/li_logo.png"
 import email from "../assets/email_logo.png"
+import download from "../assets/download.png"
 
 const Header = () => {
   return (
@@ -15,6 +16,9 @@ const Header = () => {
             </a>
             <a href="mailto:thomaspjoy1@gmail.com">
                 <img src={email} className="headerLogo" alt ="Email" />
+            </a>
+            <a href="./Thomas Joy - Jnr FullStack Developer.pdf" download className="download-link">
+                <img src={download} className="headerLogo"/>
             </a>
         </div>
       </nav>
