@@ -3,12 +3,13 @@ import './App.css'
 import Header from '../components/Header';
 import Signature from '../components/Signature';
 import ProjectsCarousel from '../components/ProjectsCarousel';
+import Footer from '../components/Footer';
 
 
 
 function App() {
     return (
-      <div>
+      <div id="root">
         <Header />
         <main>
             <section className="signature-section">
@@ -18,6 +19,7 @@ function App() {
                 <ProjectsCarousel />
             </section>
         </main>
+        <Footer />
       </div>
     )
   }

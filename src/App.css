@@ -1,3 +1,18 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-color:  #fdfaf3;
+}
+
+#root {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  main {
+    flex: 1;
+  }
+
 header {
     position: fixed; 
     top: 0;
@@ -40,15 +55,30 @@ header {
   }
 
   .signatureContainer h2 {
-    font-family: 'Homemade Apple', cursive;
+    font-family: 'Fira Code', monospace;
     font-size: 1.5rem;
     color: #333;
   }
 
   .signature {
-    width: 600px;
+    width: 80%;
+    max-width: 600px;
     height: auto;
     margin-bottom: 0px; /* Space before the h2 */
+  }
+
+  @media (min-width: 768px) {
+    .signatureContainer {
+      padding: 8rem 2rem 4rem;
+    }
+  
+    .signature {
+      width: 60%;
+    }
+  
+    .signatureContainer h2 {
+      font-size: 2rem;
+    }
   }
 
   .carousel-section {
@@ -84,11 +114,25 @@ header {
   }
   
   .project-card h3 {
+    font-family: 'Fira Code', monospace;
     font-size: 1.2rem;
     margin-bottom: 0.5rem;
   }
   
   .project-card p {
+    font-family: 'Fira Code', monospace;
     font-size: 1rem;
     color: #444;
   }
+
+  .footer {
+    background-color: #fdfaf3;
+    padding: 2rem 1rem;
+    font-family: 'Fira Code', monospace;
+    text-align: center;
+    color: #333;
+    font-size: 0.9rem;
+    border-top: 1px solid #ddd;
+    margin-top: 4rem;
+  }
+  
