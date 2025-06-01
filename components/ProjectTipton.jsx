@@ -5,7 +5,7 @@ const ProjectTipton = () => {
       <div className="project-card">
         <img src={tipton} alt="Tipton Auto Centre Project screesnhot"/>
         <h3>Tipton Auto Centre</h3>
-        <p>A brand new website build for a busy vehcicle servicing and MOT centre.</p>
+        <p>A brand new website build for a busy vehicle servicing and MOT centre.</p>
       </div>
     );
   };
